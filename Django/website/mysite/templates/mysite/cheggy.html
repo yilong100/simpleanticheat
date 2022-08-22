@@ -1,0 +1,112 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Anti-cheat</title>
+<link rel="stylesheet" href="{% static 'css/cheggy.css' %}">
+</head>
+<body>
+<section id="navnreg">
+<nav class="flex-container custom-color">
+<img href='#' id = "logo" src="logo.png">
+<a href="#" id='home'>HOME</a>
+<a href="#" id='home'>INSTRUCTIONS</a>
+<a href='#' id="trigger-modal2">LOGIN/REGISTER</a>
+
+</nav>
+<section id="mainsec">
+<div>
+<a class="thee">Input a question</a>
+<form>
+<label for="inputq"></label>
+<input id="inputq">
+<input id="submitbutton" type="button" value="Submit">
+</form>
+</div>
+<br>
+OR
+<div>
+<br>
+<a class="thme">Upload a text file</a>
+<form>
+<input type="file" id="myfile" name="filename">
+<input id="submitbutton2" type="button" value="Submit">
+</form>
+</div>
+<br>
+<br>
+<br>
+<div id="loader" class="loader"></div>
+</section>
+
+</section>
+<div id="results">
+<h1 class="theme">Results</h1>
+</div>
+<section id="info">
+
+<div class="result">
+<h2>Question: <a class="italics">What is the capital of France?</a></h2>
+<br>
+<br>
+<h3>Results from Chegg:</h3>
+<p class="link">link 1: <a href="">chegg.com/answers/1234567890</a></p>
+<p class="link">link 2: <a href="">chegg.com/answers/1234567890</a></p>
+<p class="link">link 3: <a href="">chegg.com/answers/1234567890</a></p>
+<br>
+<h3>Results from CourseHero:</h3>
+<p class="link">link 1: <a href="">coursehero.com/answers/1234567890</a></p>
+<p class="link">link 2: <a href="">coursehero.com/answers/1234567890</a></p>
+<p class="link">link 3: <a href="">coursehero.com/answers/1234567890</a></p>
+<br>
+<h3>Results from Cheat Site:</h3>
+<p class="link">link 1: <a href="">cheatsite.com/answers/1234567890</a></p>
+<p class="link">link 2: <a href="">cheatsite.com/answers/1234567890</a></p>
+<p class="link">link 3: <a href="">cheatsite.com/answers/1234567890</a></p>
+</div>
+<br><br><br><br>
+<div class="result">
+<h2>Question: <a class="italics">What is X + Y?</a></h2>
+<br>
+<br>
+<h3>Results from Chegg:</h3>
+<p class="link">link 1: <a href="">chegg.com/answers/1234567890</a></p>
+<p class="link">link 2: <a href="">chegg.com/answers/1234567890</a></p>
+<p class="link">link 3: <a href="">chegg.com/answers/1234567890</a></p>
+<br>
+<h3>Results from CourseHero:</h3>
+<p class="link">link 1: <a href="">coursehero.com/answers/1234567890</a></p>
+<p class="link">link 2: <a href="">coursehero.com/answers/1234567890</a></p>
+<p class="link">link 3: <a href="">coursehero.com/answers/1234567890</a></p>
+<br>
+<h3>Results from Cheat Site:</h3>
+<p class="link">link 1: <a href="">cheatsite.com/answers/1234567890</a></p>
+<p class="link">link 2: <a href="">cheatsite.com/answers/1234567890</a></p>
+<p class="link">link 3: <a href="">cheatsite.com/answers/1234567890</a></p>
+</div>
+</section>
+<footer class="footer">
+<div class="custom-color" id="footernav">
+<div id="help">
+<a class="footerheader custom-color">Help and support</a>
+<p tabindex="0">Contact us</p><p tabindex="0">Instructions</p><p tabindex="0">Website navigation</p><p tabindex="0">FAQs</p>
+</div>
+<div id="app">
+<a class="footerheader custom-color">Our app</a>
+<p tabindex="0">Download the app</p><p tabindex="0">Google play</p><p tabindex="0">Apple store</p><p tabindex="0">App instructions</p>
+</div>
+<div id="about">
+<a class="footerheader custom-color">About us</a>
+<p tabindex="0">What we do</p><p tabindex="0">Our origin</p><p tabindex="0">Our motivation</p><p tabindex="0">Other endeavours</p>
+</div>
+<div id="feedback">
+<a class="footerheader custom-color">Feedback</a>
+<p tabindex="0">Send feedback on our website</p><p tabindex="0">Rate us on the app store</p><p tabindex="0">Suggestions</p><p tabindex="0">Disputes</p>
+</div>
+</div>
+<br><br><br>
+<p id="nzbased">&copy; Anti-cheat, New Zealand based</p>
+</footer>
+
+<script src="cheggy.js"></script>
+</body>
